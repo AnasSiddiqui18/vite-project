@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { hamburger } from "../../public/assets/icons";
 import { headerLogo } from "../../public/assets/images";
 import { navLinks } from "../constants";
-import { Power4, gsap } from "gsap";
+import { gsap } from "gsap";
 
 const Nav = () => {
   useEffect(() => {
@@ -10,7 +10,6 @@ const Nav = () => {
     tl.from("nav", {
       y: -100,
       duration: 2,
-      ease: Power4.easeIn,
     });
   }, []);
 
