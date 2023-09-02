@@ -9,7 +9,7 @@ const Nav = () => {
     const tl = gsap.timeline();
     tl.from("nav", {
       y: -100,
-      duration: 3,
+      duration: 2,
     });
   }, []);
 
